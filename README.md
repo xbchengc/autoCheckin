@@ -24,3 +24,4 @@ PUSH_TOKEN：微信推送pushplus推送token，关注后拿到token用于推送�
 [hccluck/public_actions](https://github.com/hccluck/public_actions) 
 
 [签到、抽奖太麻烦？试试node自动化脚本](https://juejin.cn/post/7048958654334107684)
+掘金自动签到测试
