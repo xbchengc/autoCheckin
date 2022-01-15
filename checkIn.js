@@ -70,7 +70,7 @@ const luckDraw = async () => {
   });
   if (res && res.data) {
     let giftName = res.data.data.lottery_name;
-    if (giftName.includes("矿石" || "Bug")) {
+    if (giftName.includes("矿石") || giftName.includes("Bug")) {
       giftName = "stone";
       console.log(`\n ------ ${getNowTime(`toLocaleTimeString`)}  抽奖成功，获得：${res.data.data.lottery_name} ------\n`);
     } else {
